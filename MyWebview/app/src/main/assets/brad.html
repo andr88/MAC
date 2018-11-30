@@ -1,0 +1,16 @@
+<script>
+    function createLottery(){
+        var lottery = document.getElementById('lottery');
+        lottery.innerHTML = parseInt(Math.random()*49+1);
+    }
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h1>Brad Big Company</h1>
+<hr>
+Hello World!
+<a href="page2.html">page2</a>
+<img src="img/ggo.png">
+<hr>
+<input type="button" onclick="createLottery()" value="出樂透"><br>
+Lottery: <span id='lottery'></span>
+
